@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Second_Project.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Slabo+27px&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Slabo+27px&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6dc9014d57.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika&display=swap"
+      rel="stylesheet"
+    />
+    <title>First Responsive Website</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <div class="logo">
+          <img src="Images/logo.png" alt="logo" />
+        </div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="rightNav">
+        <input type="text" name="search" id="search" />
+        <button class="btn btn-sm">Search</button>
+      </div>
+      <div class="burger" id="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+    <section class="firstSection background" id="home">
+      <div class="box-main">
+        <div class="leftHalf">
+          <p class="textBig">My first responsive website</p>
+          <p class="textSmall">
+            I’d heard often from programmers that the best way to learn web
+            development is to…well, web develop. It’s surprisingly true.Things
+            like Youtube can hold your hand, but at the end of the day, when
+            you’re sitting in front of a blank index.html file, there is little
+            to do but start typing.Finally I started writing somethings and here
+            it is. Hope u like my first site.
+          </p>
+        </div>
+        <div class="rightHalf">
+          <img src="Images/Quotes.jpg" alt="Quotes" />
+        </div>
+      </div>
+    </section>
+
+    <section class="secondSection" id="about">
+      <div class="middleBox">
+        <div class="leftHalf">
+          <p class="textBig">My favourite detective author</p>
+          <p class="textSmall">
+            Agatha Christie is one of the most successful crime novelists and
+            theater writers of the 20th century. Agatha Christie's shy life led
+            her to a world of fantasy and has helped her to evoke many
+            personalities, including famous detective such as Hercule Poirot and
+            Miss Marble. Agatha Christie's history is full of surprises. She has
+            not only written detective novels, which have reached to 82 novels,
+            but has also written many autobiographies. She also wrote six novels
+            under a pseudonym called Mary Westmacott. Agatha Christie also wrote
+            19 plays Including the play "The Trap" which was known in London as
+            the longest play at that time.
+          </p>
+        </div>
+        <div class="rightHalf">
+          <img src="Images/detective.png" alt="Detective" />
+        </div>
+      </div>
+    </section>
+    <section class="thirdSection">
+      <div class="middleBox">
+        <div class="leftHalf">
+          <p class="textBig">My favourite movie</p>
+          <p class="textSmall">
+            Few experiences can rival the power of a good movie. A film can
+            transport us to another time or place, make us laugh or cry, and
+            introduce us to new ideas and perspectives. For me, one movie that
+            has always stood out is The Shawshank Redemption. Directed by Frank
+            Darabont and based on a Stephen King novella, The Shawshank
+            Redemption tells the story of Andy Dufresne, a man wrongly convicted
+            of murder who finds hope and friendship in the unlikeliest of places
+            – a maximum-security prison. What I love about the film is the way
+            it challenges our preconceptions about people and the world around
+            us. It reminds us that hope is never lost, and that even in the
+            darkest of times, we have the potential to find beauty and meaning
+            in our lives. The Shawshank Redemption is more than just a great
+            movie – it’s a powerful reminder of what it means to be human.
+          </p>
+        </div>
+        <div class="rightHalf">
+          <img src="Images/movie.png" alt="Movie" />
+        </div>
+      </div>
+    </section>
+    <!------------------------------------------------->
+    <!-- Accordian -->
+    <!------------------------------------------------->
+    <section class="accordian_main" id="services">
+      <div class="accordian_title">
+        <p class="accordian_desc">My Hobbies</p>
+      </div>
+      <div class="accordian">
+        <div class="item">
+          <div class="number">1</div>
+          <div class="heading">
+            <h2>Reading Books</h2>
+          </div>
+          <div class="openIcon">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="closeIcon">
+            <i class="fa-solid fa-minus"></i>
+          </div>
+          <div class="hiddenBox">
+            <p>
+              Reading provides a welcome relief from my daily monotonous routine
+              and serves as an excellent pastime. As I read through the lines,
+              sitting in the comfort of my home, my mind travels to unknown
+              places and far distant lands.
+              <br />
+              Below are three of my most favourite books
+            </p>
+            <ul>
+              <li>The Complete Adventures of Feluda by Satyajit Ray</li>
+              <li>The Room on the Roof by Ruskin Bond</li>
+              <li>Wings of Fire by APJ Abdul Kalam</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="number">2</div>
+          <div class="heading">
+            <h2>Yoga</h2>
+          </div>
+          <div class="openIcon">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="closeIcon">
+            <i class="fa-solid fa-minus"></i>
+          </div>
+          <div class="hiddenBox">
+            <p>
+              Yoga helps to divert my mind from the noisy and busy schedule.It
+              improves physical and mental stability by calming the mind.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="number">3</div>
+          <div class="heading">
+            <h2>Playing video games</h2>
+          </div>
+          <div class="openIcon">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="closeIcon">
+            <i class="fa-solid fa-minus"></i>
+          </div>
+          <div class="hiddenBox">
+            <p>
+              Playing video games not only provides entertainment but also helps
+              to focus more.It increases hand-eye cordination and also improves
+              reflexes.Below listed are aome of the video games that I enjoy
+              playing.
+            </p>
+            <ul>
+              <li>GTA 5</li>
+              <li>Call of duty: Modern Warfare</li>
+              <li>Far Cry 5</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------------------->
+
+    <!------------------------------------------------->
+    <section class="contact" id="contact">
+      <h2 class="text-center">Contact Us</h2>
+      <div class="contact-form">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+        />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your phone no."
+        />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your email id"
+        />
+        <textarea
+          cols="20"
+          rows="5"
+          placeholder="Elaborate your concern"
+        ></textarea>
+        <button class="form-submit">Submit</button>
+      </div>
+    </section>
+    <footer class="text-center">
+      Copyright &copy; 2023 - All Rights Reserved
+    </footer>
+  </body>
+  <script>
+    let ham = document.getElementById("hamburger");
+    let navbar = document.querySelector(".navbar");
+    let navlist = document.querySelector(".nav-list");
+    let rightnav = document.querySelector(".rightNav");
+    ham.addEventListener("click", () => {
+      navbar.classList.toggle("navbar-resp");
+      navlist.classList.toggle("nav-list-resp");
+      rightnav.classList.toggle("rightNav-resp");
+    });
+
+    const item = document.getElementsByClassName("item");
+    const closeIcon = document.getElementsByClassName("closeIcon");
+    const openIcon = document.getElementsByClassName("openIcon");
+    for (let i = 0; i < item.length; i++) {
+      closeIcon[i].style.display = "none";
+      item[i].addEventListener("click", () => {
+        const res = item[i].classList.toggle("active");
+        if (res) {
+          openIcon[i].style.display = "none";
+          closeIcon[i].style.display = "block";
+        } else {
+          openIcon[i].style.display = "block";
+          closeIcon[i].style.display = "none";
+        }
+      });
+    }
+  </script>
+</html>
